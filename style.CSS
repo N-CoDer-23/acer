@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 5000vh;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 0;
+    background: rgba(222, 220, 220, 0.577);
+    color: rgb(110, 110, 110);
+}
+.navbar ul{
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+    list-style: none;
+    padding-top: 20px;
+}
+.navbar2{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 0;
+    background: rgba(255, 255, 255, 0.577);
+    border-bottom: 1px solid grey;
+}
+.navbar2 ul{
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+    list-style: none;
+    padding-top: 25px;
+}
+span{
+   font-size: large;
+    color: rgb(25, 192, 25);
+}
+
+.img{
+    width: 100%;
+    height: 80vh;
+    background: url(./img/acer.webp) no-repeat center/cover;
+    padding: 13%;
+}
+.rob1{
+    width: 40%;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 35px;
+}
+.rob{
+    width: 40%;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.btn{
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.brow{
+    text-align: center;
+    margin: 25px 0;
+    font-size: 40px;
+}
+.laptops{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    text-align: center;
+}
+.card:hover{
+    cursor: pointer;
+    font-size: 20px;
+   
+}
+
+
+.ecer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 50px;
+    margin: 20% 4% 0 1%;
+}
+.ra{
+    background: url(./img/acer2.webp) no-repeat center/cover;
+    width: 50%;
+    filter: contrast(50%);
+}
+.ra2{
+    background: url(./img/acer3.webp) no-repeat center/cover;
+    width: 50%;
+    filter: contrast(50%);
+}
+.ra h1{
+    text-align: center;
+    margin-top: 18%;
+    color: black;
+}
+.ra2 h1{
+    text-align: center;
+    margin-top: 20%;
+    color: rgba(255, 255, 255, 0.989);
+}
+
+.text{
+    margin-top: 10%;
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin-left: 5%;
+}
+.text h1{
+    font-size: 38px;
+    font-weight: 530;
+}
+
+.klavw{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.klav{
+    background: url(./img/kla.webp) no-repeat center/cover;
+    width: 45%;
+    height: 65%;
+    margin: 2% 2% 0 5%;
+}
+.te{
+    margin: 60% 0 2% 0;
+}
+.klav2{
+    width: 45%;
+    height: 90%;
+    
+}
+.klav2 .seh2{
+    background: url(./img/sex.jpg) no-repeat center/cover;
+    width: 100px;
+    height: 100px;
+    margin: 0% 2% 3% 0;
+}
+.seh{
+    width: 100%;
+    height: 100px;
+    margin-top: 4%;
+    display: flex;
+}
+.klav2 .seh3{
+    background: url(./img/gem1.webp) no-repeat center/cover;
+    width: 100px;
+    height: 100px;
+    margin: 0% 2% 3% 0;
+}
+.seh1{
+    width: 100%;
+    height: 100px;
+    margin-top: 4%;
+    display: flex;
+}
+.klav2 .seh04{
+    background: url(./img/gem2.webp) no-repeat center/cover;
+    width: 100px;
+    height: 100px;
+    margin: 0% 2% 3% 0;
+}
+.seh02{
+    width: 100%;
+    height: 100px;
+    margin-top: 4%;
+    display: flex;
+}
+.klav2 .seh05{
+    background: url(./img/ge3.webp) no-repeat center/cover;
+    width: 100px;
+    height: 100px;
+    margin: 0% 2% 3% 0;
+}
+.seh03{
+    width: 100%;
+    height: 100px;
+
+    margin-top: 4%;
+    display: flex;
+}
